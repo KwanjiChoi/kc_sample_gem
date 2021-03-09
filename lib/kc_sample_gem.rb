@@ -4,13 +4,11 @@ require 'json'
 
 module KcSampleGem
   class Error < StandardError; end
-  # Your code goes here...
-
 
   BASE_URL = 'http://geoapi.heartrails.com/api/json'.freeze
 
   def self.greeting
-    puts 'Hello Kwanji!'
+    'Hello Kwanji!'
   end
 
   def self.get_cities(prefecture)

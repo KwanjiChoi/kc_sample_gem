@@ -4,6 +4,6 @@ RSpec.describe KcSampleGem do
   end
 
   it "does something useful" do
-    expect(false).to eq(true)
+    expect(KcSampleGem.greeting).to eq 'Hello Kwanji!'
   end
 end
